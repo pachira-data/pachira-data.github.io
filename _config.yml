@@ -1,4 +1,4 @@
-baseurl: 'https://pachira-data.github.io/'
+baseurl: '/pachira-data.github.io/'
 permalink: pretty
 title: 'Pachira Data & Design'
 
