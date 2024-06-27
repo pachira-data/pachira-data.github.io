@@ -19,6 +19,7 @@ bodyClass: page-about
                     <li><strong>Analyse de données :</strong> Transformer les données brutes en informations exploitables.</li>
                     <li><strong>Apprentissage automatique (Machine Learning) :</strong> Développer des modèles prédictifs pour améliorer la prise de décision.</li>
                     <li><strong>Visualisation de données :</strong> Créer des visualisations intuitives pour communiquer des données complexes.</li>
+                    <li><strong>Etc.</strong></li>
                 </ul>
 
                 <h2>Pourquoi me choisir ?</h2>
