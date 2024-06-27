@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+<div class="intro pb-3"> <!-- Adjusted padding-bottom -->
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -21,49 +21,209 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="section-title mb-3">
+        <h1>Notre offre</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="border rounded p-3 h-100">
+        <h3 class="mb-3">Utilisation améliorée des données:</h3>
+        <ul>
+          <li>Données réparties sur différents systèmes, rendant leur intégration et analyse difficiles ?</li>
+          <li>Données manquantes, incohérentes ou incorrectes ralentissant les analyses ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="border rounded p-3 h-100">
+        <h3 class="mb-3">Efficacité et productivité améliorées:</h3>
+        <ul>
+          <li>Besoin de mettre à jour des technologies obsolètes ou incompatibles ?</li>
+          <li>tâches et processus répétitifs qui pourraient bénéficier d'une automatisation ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="border rounded p-3 h-100">
+        <h3 class="mb-3">Solutions évolutives:</h3>
+        <ul>
+          <li>trop de données nécessitant des solutions analytiques évolutives pour gérer du big data ?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="border rounded p-3 h-100">
+        <h3 class="mb-3">Communication efficace:</h3>
+        <ul>
+          <li>besoin d'aide pour communiquer des résultats complexes à des parties prenantes non techniques ?</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="border rounded p-3 h-100">
+        <h3 class="mb-3">Solutions personnalisées:</h3>
+        <ul>
+          <li>Besoin d'un data scientist expert en : Biologie, Agronomie, Biotechnologie, Santé, Sciences de l'environnement ?</li>
+          <li>Vous ne savez pas quelle est la meilleure approche pour les besoins de votre entreprise ?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="text-center mb-4">
+        <h3>Contactez-nous dès maintenant pour une consultation gratuite !</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Langages et Outils utilisés section -->
+<div class="container icon-section pt-2 pb-2 pb-md-3"> <!-- Added icon-section class -->
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="section-title">
+        <h1>Langages et Outils utilisés</h1>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="langages-outils-images">
+        <div class="row justify-content-center icon-row"> <!-- Added icon-row class -->
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/UbuntuCoF.svg" alt="Ubuntu">
+            Ubuntu
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/RStudio_logo_flat.svg" alt="RStudio">
+            RStudio
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Sql_data_base_with_logo.svg" alt="SQL">
+            SQL
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/sqlite-icon.svg" alt="SQLite">
+            SQLite
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Git-Icon-1788C.svg" alt="Git">
+            Git
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Python-logo-notext.svg" alt="Python">
+            Python
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Jupyter_logo.svg" alt="Jupyter notebook">
+            Jupyter notebook
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Pandas_logo.svg" alt="pandas">
+            pandas
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/NumPy_logo_2020.svg" alt="numpy">
+            numpy
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/statsmodels-logo-v2-no-text.svg" alt="statsmodels">
+            statsmodels
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Matplotlib_icon.svg" alt="matplotlib">
+            matplotlib
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/seaborn_logo-mark-lightbg.svg" alt="seaborn">
+            seaborn
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/plotly-icon.svg" alt="plotly">
+            plotly
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Scikit_learn_logo_small.svg" alt="scikit-learn">
+            scikit-learn
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Tensorflow_logo.svg" alt="tensorflow">
+            tensorflow
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Keras_logo.svg" alt="keras">
+            keras
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/fastapi-1.svg" alt="fastAPI">
+            fastAPI
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/streamlit-mark-color.svg" alt="streamlit">
+            streamlit
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/docker-svgrepo-com.svg" alt="Docker">
+            Docker
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/google-cloud-3.svg" alt="Google Cloud">
+            Google Cloud
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Google_Storage-Logo.wine.svg" alt="Google Storage">
+            Google Storage
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/google-compute-engine-seeklogo.svg" alt="Google Compute Engine">
+            Google Compute
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/google_bigquery-icon.svg" alt="Google BigQuery">
+            Google BigQuery
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Google_Colaboratory_SVG_Logo.svg" alt="Google Colab">
+            Google Colab
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/langchain-seeklogo.svg" alt="LangChain">
+            LangChain
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/OpenAI_Logo.svg" alt="OpenAI">
+            OpenAI
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/ChatGPT_logo.svg" alt="ChatGPT">
+            ChatGPT
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Hugging_Face_logo.svg" alt="Hugging Face">
+            Hugging Face
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Microsoft_Office_Excel.svg" alt="Microsoft Excel">
+            Microsoft Excel
+          </div>
+          <div class="col-4 col-md-2 mb-3">
+            <img width="28" height="28" src="images/tools/Google_Sheets_logo_(2014-2020).svg" alt="Google Sheets">
+            Google Sheets
           </div>
         </div>
       </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
     </div>
   </div>
 </div>
-
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}

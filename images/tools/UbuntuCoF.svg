@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 90 90"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="UbuntuCoF.svg"
+   width="90"
+   height="90"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.06"
+     inkscape:cx="45.037221"
+     inkscape:cy="44.975186"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <circle
+     fill="#f47421"
+     cy="45"
+     cx="45"
+     r="45"
+     id="circle1" />
+  <circle
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="8.55"
+     cx="45"
+     cy="45"
+     r="21.825001"
+     id="circle2" />
+  <g
+     id="friend"
+     transform="translate(-5,-5)">
+    <circle
+       fill="#f47421"
+       cx="19.4"
+       cy="50"
+       r="8.4376001"
+       id="circle3" />
+    <path
+       stroke="#f47421"
+       stroke-width="3.2378"
+       d="M 67,50 H 77"
+       id="path3" />
+    <circle
+       fill="#ffffff"
+       cx="19.4"
+       cy="50"
+       r="6.0074501"
+       id="circle4" />
+  </g>
+  <use
+     xlink:href="#friend"
+     transform="rotate(120,45,45)"
+     id="use4" />
+  <use
+     xlink:href="#friend"
+     transform="rotate(-120,45,45)"
+     id="use5" />
+</svg>

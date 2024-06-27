@@ -2,12 +2,11 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+$primary: #365a00;
+$secondary: #9aac7f;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f6fff2;
 $steel: #5c5a5a;
 
 // Links
@@ -17,8 +16,11 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+//$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+//$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: "Martel Sans", sans-serif, -apple-system;
+$font-family-heading: "Istok Web", serif, -apple-system;
+$font-family-subheading: "Raleway", sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
@@ -107,12 +109,128 @@ $sub-footer-text-color: $white;
 @import "pages/page-teams";
 @import "pages/page-service";
 
+// Body styles
 body {
   font-size: 16px;
   line-height: 1.2;
-  font-family: $font-family-base;
+  font-family: $font-family-base !important;
   @include media-breakpoint-up(md) {
     font-size: 16px;
     line-height: 1.3;
   }
+}
+
+// Headlines
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading !important;
+  font-weight: 700; // Adjust weight if needed
+}
+
+// Subheadings
+.subheading {
+  font-family: $font-family-subheading !important;
+  font-weight: 100; // Adjust weight if needed
+  font-style: oblique; // Apply oblique style
+}
+
+//Sections
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem; // Adjust the font size for the section title
+  color: $primary;  // Add this line to set the text color to the primary color
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0; // Ensure no extra space at the bottom of the list
+}
+
+.services-list {
+  line-height: 2.5; // Increase line-height for more space between lines in section 2
+  margin-bottom: 2rem; // Add margin at the bottom for spacing between sections 2 and 3
+}
+
+.list-inline-item {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.list-inline-item a {
+  color: $primary; // Use your primary color variable
+  text-decoration: underline; // Underline the service name
+  font-size: 1.2rem; // Adjust the font size for the service links
+}
+
+.list-inline-item a:hover {
+  text-decoration: none;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 1.2rem; // Adjust the font size for the bold text
+}
+
+.icon-section {
+  margin-top: 3rem; // Increase space between section 2 and section 3
+}
+
+.icon-row {
+  margin-bottom: 0.5rem; // Reduce space between rows of icons in section 3
+}
+
+.call {
+  /* Ensure the call box is properly styled */
+  position: relative; /* Ensure relative positioning */
+}
+
+.call-new-client {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 10px; /* Adjust top margin as needed */
+}
+
+.new-client-text {
+  font-size: 8px; /* Adjust font size to your preference */
+  color: #555; /* Text color */
+  text-align: center; /* Center text within the paragraph */
+  margin: 0; /* Remove default margins */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.call-box-bottom {
+  position: absolute; /* Ensure absolute positioning */
+  top: 0; /* Aligns to the top */
+  right: 0; /* Aligns to the right */
+}
+
+.intro-image {
+  max-width: 100%;
+  height: auto;
+  display: block !important; /* Ensures the image is treated as a block element */
+}
+
+.align-left {
+  float: left; /* Aligns the image to the left */
+  margin-right: 20px; /* Adds space between the image and text */
+}
+
+.numbered-list {
+  list-style-type: decimal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.5; /* Adjust line height as needed */
+}
+
+.smaller-title {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  margin-bottom: 1rem; /* Adjust margin bottom as needed */
+}
+
+.service-icon img {
+  width: 40px; /* Adjust icon size as needed */
+  height: 40px;
+  margin-right: 8px; /* Adjust margin between icon and text */
 }
