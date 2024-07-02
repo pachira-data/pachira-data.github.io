@@ -1,7 +1,7 @@
 ---
-title: About
+title: À propos
 layout: page
-description: About
+description: A propos
 bodyClass: page-about
 ---
 
@@ -9,7 +9,6 @@ bodyClass: page-about
     <div class="row">
         <div class="col-md-8">
             <div class="service service-single">
-                <h1 class="title">À propos</h1>
                 <p>Bienvenue chez Pachira Data & Design ! Je suis Julia Dupin, une data scientist (<a href="https://www.malt.fr/profile/juliadupin1" target="_blank">Malt</a>) passionnée et expérimentée dédiée à aider les entreprises et les organisations à exploiter la puissance de leurs données.</p>
 
                 <p>Je suis titulaire d'un doctorat en écologie et biologie évolutive de l'Université du Colorado à Boulder (<a href="https://scholar.google.com/citations?user=qQFpTv8AAAAJ&hl=en" target="_blank">Google Scholar</a>), et je me suis spécialisée en science des données grâce au Bootcamp Data Science de Le Wagon (<a href="https://github.com/juliadupin" target="_blank">Github</a>).</p>
