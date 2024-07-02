@@ -1,4 +1,5 @@
 # Pachira Data & Design
 
-website for Data Science company based in Toulouse
-for the time being, only available in French
+repository pour le siteweb de l'entrpreise Pachira Data & Design, basée à Toulouse
+
+code originally forked from https://github.com/zerostaticthemes/jekyll-serif-theme
