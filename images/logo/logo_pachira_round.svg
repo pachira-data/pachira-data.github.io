@@ -12,7 +12,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   title="logo-mobile">
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
@@ -40,7 +41,7 @@
      id="layer1"
      transform="translate(-39.089276,-42.868477)">
     <g
-       id="g1">
+       id="logo-mobile">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.656448;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          id="rect29"

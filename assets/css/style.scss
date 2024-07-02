@@ -234,3 +234,37 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   margin-right: 8px; /* Adjust margin between icon and text */
 }
+.experience-details {
+  margin-bottom: 20px;
+}
+
+.experience-details strong {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.experience-details em {
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.experience-details ul {
+  margin-left: 20px; /* Adjust indentation as needed */
+  margin-bottom: 10px;
+  padding-left: 0; /* Remove default padding */
+}
+
+.experience-details ul li {
+  list-style-position: inside; /* Ensure bullet/number position */
+}
+
+.custom-ul {
+  margin-top: 0px; /* Adjust the top margin between list items */
+  margin-bottom: 0px; /* Adjust bottom margin as needed */
+  padding-left: 20px; /* Adjust the left padding of the list */
+}
+
+.custom-ul li {
+  margin-bottom: 10px; /* Adjust the bottom margin between list items */
+}
