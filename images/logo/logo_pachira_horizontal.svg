@@ -12,7 +12,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   title="logo">
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
@@ -40,7 +41,7 @@
      id="layer1"
      transform="translate(-40.971945,-13.623766)">
     <g
-       id="g1"
+       id="logo"
        transform="translate(5.4225953,-0.18064146)">
       <path
          style="font-size:10.9361px;line-height:109%;font-family:'Nixie One';-inkscape-font-specification:'Nixie One';letter-spacing:0.529167px;word-spacing:0px;fill:#365a00;stroke-width:0.264583"
