@@ -288,3 +288,12 @@ h1, h2, h3, h4, h5, h6 {
 .p-3 {
   padding: 10px; /* Adjust as needed */
 }
+
+/* Maintain indentation for nested lists */
+.custom-ul {
+  padding-left: 20px; /* Adds indentation to the top-level list */
+}
+
+.subsection-list {
+  padding-left: 20px; /* Adds indentation to the nested lists */
+}
