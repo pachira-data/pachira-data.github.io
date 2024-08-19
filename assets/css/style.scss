@@ -273,3 +273,18 @@ h1, h2, h3, h4, h5, h6 {
 .icon-section .col-md-2 {
   font-size: 0.85rem; /* Adjust the font size as desired */
 }
+
+/* Add spacing between the subsection titles and the first bullet point */
+.subsection-list {
+  margin-top: 10px; /* Adjust this value as needed */
+}
+
+/* Remove any unnecessary bottom padding/margin in the sections */
+.mb-4 {
+  margin-bottom: 20px; /* Adjusted for less space */
+}
+
+/* Optionally, if you need to control padding as well */
+.p-3 {
+  padding: 20px; /* Adjust as needed */
+}
